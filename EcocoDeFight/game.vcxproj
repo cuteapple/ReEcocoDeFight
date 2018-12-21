@@ -1,0 +1,1329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Degun-Release|Win32">
+      <Configuration>Degun-Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Degun-Release|x64">
+      <Configuration>Degun-Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnitTest|Win32">
+      <Configuration>UnitTest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnitTest|x64">
+      <Configuration>UnitTest</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}</ProjectGuid>
+    <RootNamespace>game</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    </LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    </LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    </LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    </LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">
+    </LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">
+    </LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+    <IncludePath>.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\MiddleWare\Collider;.\EcocoDeFight;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\Source;$(IncludePath)</IncludePath>
+    <SourcePath>.\EcocoDeFight\Game\Ecoco;.\EcocoDeFight\Game\Stages;.\EcocoDeFight\Game\Opponents;.\EcocoDeFight\Game\Map;.\EcocoDeFight\Game;.\EcocoDeFight\Pictures;.\EcocoDeFight\MiddleWare;.\EcocoDeFight\MiddleWare\Collider;.\Source;$(SourcePath)</SourcePath>
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <BrowseInformation>false</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>false</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <BrowseInformation>false</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>false</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ddraw.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Release/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WINVER=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ddraw.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\UnitTest/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNITTEST;_CRT_SECURE_NO_DEPRECATE;WINVER=0x400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\UnitTest/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\UnitTest/</AssemblerListingLocation>
+      <ObjectFileName>.\UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnitTest/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;cppunitd.lib;testrunnerd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\UnitTest/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <ProgramDatabaseFile>.\UnitTest/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnitTest/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\UnitTest/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNITTEST;_CRT_SECURE_NO_DEPRECATE;WINVER=0x400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\UnitTest/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\UnitTest/</AssemblerListingLocation>
+      <ObjectFileName>.\UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnitTest/</ProgramDataBaseFileName>
+      <WarningLevel>
+      </WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;cppunitd.lib;testrunnerd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\UnitTest/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <ProgramDatabaseFile>.\UnitTest/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnitTest/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>
+      </WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>
+      </WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="EcocoDeFight\Audio\chapter.wma" />
+    <None Include="EcocoDeFight\Audio\title.wma" />
+    <None Include="Res\ball.bmp" />
+    <None Include="RES\bmp0.bmp" />
+    <None Include="RES\bmp1.bmp" />
+    <None Include="RES\bmp10.bmp" />
+    <None Include="RES\bmp2.bmp" />
+    <None Include="RES\bmp3.bmp" />
+    <None Include="RES\bmp4.bmp" />
+    <None Include="RES\bmp5.bmp" />
+    <None Include="RES\bmp6.bmp" />
+    <None Include="RES\bmp7.bmp" />
+    <None Include="RES\bmp8.bmp" />
+    <None Include="RES\bmp9.bmp" />
+    <None Include="RES\center.bmp" />
+    <None Include="RES\continue.bmp" />
+    <None Include="Res\corner.bmp" />
+    <None Include="RES\eraser1.bmp" />
+    <None Include="RES\eraser2.bmp" />
+    <None Include="RES\eraser3.bmp" />
+    <None Include="res\game.ico" />
+    <None Include="res\game.rc2" />
+    <None Include="RES\gamecurs.cur" />
+    <None Include="res\gameDoc.ico" />
+    <None Include="RES\help.bmp" />
+    <None Include="RES\loading.bmp" />
+    <None Include="RES\ntutcsie.bmp" />
+    <None Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EcocoDeFight\Game\Background.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\BGMPlayer.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Cheat.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\CommonFunctions.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Caterpillar.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\Ecoco.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\GameFlow.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Ice.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Map\GameMap.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Map\Maps.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\Penguin.cpp" />
+    <ClInclude Include="EcocoDeFight\Game\BackGround.h" />
+    <ClInclude Include="EcocoDeFight\Game\BGMPlayer.h" />
+    <ClInclude Include="EcocoDeFight\Game\Cheat.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\Penguins.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Attack.h" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Attack.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_AttackBack.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Tracing.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Mouse.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Watermelon.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\ScoreBoard.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageIn.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StateLose.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StatePlaying.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StateStart.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StateWin.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Stages\StageA.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Stages\StageAx.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ColliderContainer.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\CircleColliderShapeBase.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\ColliderComparior.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\RectangleColliderShapeBase.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\ControllableCharact.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Enviroment.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\MovableCharact.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Map.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Animation.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Animator.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Bitmap.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Camera.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\GameFlowDriver.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Input.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Point.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Sound.cpp" />
+    <ClCompile Include="Source\audio.cpp" />
+    <ClCompile Include="Source\game.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">UnitTest/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EcocoDeFight\Game\CommonFunctions.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA3.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA4.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA5.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Mouse.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageIn.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA2.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Caterpillar.h" />
+    <ClInclude Include="EcocoDeFight\Game\Enumeration.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\Ecoco.h" />
+    <ClInclude Include="EcocoDeFight\Game\GameFlow.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Ice.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Mob.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\GameMap.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Watermelon.h" />
+    <ClInclude Include="EcocoDeFight\Game\ScoreBoard.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StageState.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StateStart.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StateLose.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StatePlaying.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StateWin.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\IStage.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA1.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapItemDefine.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\Maps.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\StageMap.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\Penguin.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_AttackBack.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Base.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Tracing.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\StageA.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\StageAx.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\StageXx.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\IStageState.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\Collider.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ColliderTemplate.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\CircleColliderShapeBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ColliderBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\ColliderShapeBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\ColliderComparior.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\RectangleColliderShapeBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\ControllableCharact.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Enviroment.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\MovableCharact.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Map.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Animation.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Animator.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Bitmap.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Camera.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Color.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\GameFlowDriver.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Input.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Point.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Sound.h" />
+    <ClInclude Include="EcocoDeFight\Pictures\EcoPicEx.h" />
+    <ClInclude Include="EcocoDeFight\Pictures\EcoPic.h" />
+    <ClInclude Include="Source\audio.h" />
+    <ClInclude Include="Source\game.h" />
+    <ClInclude Include="Source\gameDoc.h" />
+    <ClInclude Include="Source\gameView.h" />
+    <ClInclude Include="Source\MainFrm.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="Source\StdAfx.h" />
+    <ClInclude Include="Source\gamelib.h" />
+    <ClInclude Include="Source\mygame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EcocoDeFight\Pictures\EcoPic.rc" />
+    <ResourceCompile Include="Source\game.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Degun-Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Block\AIR.bmp" />
+    <Image Include="Block\Brick (1).bmp" />
+    <Image Include="Block\Brick (10).bmp" />
+    <Image Include="Block\Brick (11).bmp" />
+    <Image Include="Block\Brick (12).bmp" />
+    <Image Include="Block\Brick (13).bmp" />
+    <Image Include="Block\Brick (14).bmp" />
+    <Image Include="Block\Brick (15).bmp" />
+    <Image Include="Block\Brick (16).bmp" />
+    <Image Include="Block\Brick (17).bmp" />
+    <Image Include="Block\Brick (18).bmp" />
+    <Image Include="Block\Brick (19).bmp" />
+    <Image Include="Block\Brick (2).bmp" />
+    <Image Include="Block\Brick (20).bmp" />
+    <Image Include="Block\Brick (21).bmp" />
+    <Image Include="Block\Brick (22).bmp" />
+    <Image Include="Block\Brick (23).bmp" />
+    <Image Include="Block\Brick (24).bmp" />
+    <Image Include="Block\Brick (25).bmp" />
+    <Image Include="Block\Brick (26).bmp" />
+    <Image Include="Block\Brick (27).bmp" />
+    <Image Include="Block\Brick (28).bmp" />
+    <Image Include="Block\Brick (29).bmp" />
+    <Image Include="Block\Brick (3).bmp" />
+    <Image Include="Block\Brick (30).bmp" />
+    <Image Include="Block\Brick (31).bmp" />
+    <Image Include="Block\Brick (32).bmp" />
+    <Image Include="Block\Brick (4).bmp" />
+    <Image Include="Block\Brick (5).bmp" />
+    <Image Include="Block\Brick (6).bmp" />
+    <Image Include="Block\Brick (7).bmp" />
+    <Image Include="Block\Brick (8).bmp" />
+    <Image Include="Block\Brick (9).bmp" />
+    <Image Include="Block\IceFloor (1).bmp" />
+    <Image Include="Block\IceFloor (2).bmp" />
+    <Image Include="Block\IceFloor (3).bmp" />
+    <Image Include="Block\Icicle (1).bmp" />
+    <Image Include="Block\Icicle (2).bmp" />
+    <Image Include="Block\Icicle (3).bmp" />
+    <Image Include="Block\Lava (1).bmp" />
+    <Image Include="Block\Lava (10).bmp" />
+    <Image Include="Block\Lava (11).bmp" />
+    <Image Include="Block\Lava (12).bmp" />
+    <Image Include="Block\Lava (13).bmp" />
+    <Image Include="Block\Lava (14).bmp" />
+    <Image Include="Block\Lava (15).bmp" />
+    <Image Include="Block\Lava (16).bmp" />
+    <Image Include="Block\Lava (2).bmp" />
+    <Image Include="Block\Lava (3).bmp" />
+    <Image Include="Block\Lava (4).bmp" />
+    <Image Include="Block\Lava (5).bmp" />
+    <Image Include="Block\Lava (6).bmp" />
+    <Image Include="Block\Lava (7).bmp" />
+    <Image Include="Block\Lava (8).bmp" />
+    <Image Include="Block\Lava (9).bmp" />
+    <Image Include="CG\EcocoBegin.bmp" />
+    <Image Include="CG\EcocoFail.bmp" />
+    <Image Include="CG\EcocoWin.bmp" />
+    <Image Include="CG\iceBG.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\AIR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (10).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (11).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (12).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (13).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (14).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (15).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (16).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (17).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (18).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (19).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (20).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (21).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (22).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (23).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (24).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (25).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (26).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (27).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (28).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (29).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (30).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (31).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (32).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (6).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (7).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (8).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (9).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\IceFloor (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\IceFloor (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\IceFloor (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Icicle (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Icicle (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Icicle (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (10).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (11).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (12).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (13).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (14).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (15).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (16).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (6).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (7).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (8).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (9).bmp" />
+    <Image Include="EcocoDeFight\Pictures\CG\EcocoBegin.bmp" />
+    <Image Include="EcocoDeFight\Pictures\CG\EcocoFail.bmp" />
+    <Image Include="EcocoDeFight\Pictures\CG\EcocoWin.bmp" />
+    <Image Include="EcocoDeFight\Pictures\CG\iceBG.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear1.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear1.png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear12.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear2.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear3.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear4.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_fallL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_fallR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_JumpL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_JumpL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_JumpL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_jumpR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_jumpR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_jumpR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss0.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss1.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss10.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss11.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss2.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss3.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss4.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss5.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss6.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss7.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss8.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss9.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_StandL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_StandR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (1).png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (2).png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (3).png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (4).png" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_FailL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_FailR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_IceL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_IceR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_JumpL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_JumpR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_MoveL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_MoveL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_MoveL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_StandL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_StandR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_WalkR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_WalkR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_WalkR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\Caterpillar_EggL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\Caterpillar_EggR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_FailL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_FailR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_IceL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_IceR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_AttackL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_AttackR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_Attack_BackL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_Attack_BackR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (6).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (7).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (8).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (6).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (7).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (8).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_StandL.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_StandR.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (6).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (3).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (4).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (5).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (6).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\0.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\1.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\2.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\3.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\4.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\5.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\6.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\7.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\8.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\9.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Small Text\penguin.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\-.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\0.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\1.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\2.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\3.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\4.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\5.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\6.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\7.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\8.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\9.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\Bonus.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\clear.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\GameOver.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\Hits.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\Ready.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\Stage.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\Start.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\TimeOver.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Text\World.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Egg.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Fail (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Fail (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Ice.bmp" />
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Jump (1).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Jump (2).bmp" />
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Jump (3).bmp" />
+    <Image Include="Mouse\Mouse_FailL.bmp" />
+    <Image Include="Mouse\Mouse_FailR.bmp" />
+    <Image Include="Mouse\Mouse_IceL.bmp" />
+    <Image Include="Mouse\Mouse_IceR.bmp" />
+    <Image Include="Mouse\Mouse_JumpL.bmp" />
+    <Image Include="Mouse\Mouse_JumpR.bmp" />
+    <Image Include="Mouse\Mouse_MoveL (1).bmp" />
+    <Image Include="Mouse\Mouse_MoveL (2).bmp" />
+    <Image Include="Mouse\Mouse_MoveL (3).bmp" />
+    <Image Include="Mouse\Mouse_StandL.bmp" />
+    <Image Include="Mouse\Mouse_StandR.bmp" />
+    <Image Include="Mouse\Mouse_WalkR (1).bmp" />
+    <Image Include="Mouse\Mouse_WalkR (2).bmp" />
+    <Image Include="Mouse\Mouse_WalkR (3).bmp" />
+    <Image Include="Opponents\Caterpillar_EggL.bmp" />
+    <Image Include="Opponents\Caterpillar_EggR.bmp" />
+    <Image Include="Opponents\CaterPillar_FailL.bmp" />
+    <Image Include="Opponents\CaterPillar_FailR.bmp" />
+    <Image Include="Opponents\CaterPillar_IceL.bmp" />
+    <Image Include="Opponents\CaterPillar_IceR.bmp" />
+    <Image Include="Opponents\CaterPillar_MoveL (1).bmp" />
+    <Image Include="Opponents\CaterPillar_MoveL (2).bmp" />
+    <Image Include="Opponents\CaterPillar_MoveL (3).bmp" />
+    <Image Include="Opponents\CaterPillar_MoveR (1).bmp" />
+    <Image Include="Opponents\CaterPillar_MoveR (2).bmp" />
+    <Image Include="Opponents\CaterPillar_MoveR (3).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (1).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (2).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (3).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (4).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (5).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (6).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (7).bmp" />
+    <Image Include="Penguin\Penguin_AttackL (8).bmp" />
+    <Image Include="Penguin\Penguin_AttackL.bmp" />
+    <Image Include="Penguin\Penguin_AttackR (1).bmp" />
+    <Image Include="Penguin\Penguin_AttackR (2).bmp" />
+    <Image Include="Penguin\Penguin_AttackR (3).bmp" />
+    <Image Include="Penguin\Penguin_AttackR (4).bmp" />
+    <Image Include="Penguin\Penguin_AttackR (5).bmp" />
+    <Image Include="Penguin\Penguin_AttackR (6).bmp" />
+    <Image Include="Penguin\Penguin_AttackR (7).bmp" />
+    <Image Include="Penguin\Penguin_AttackR (8).bmp" />
+    <Image Include="Penguin\Penguin_AttackR.bmp" />
+    <Image Include="Penguin\Penguin_Attack_BackL.bmp" />
+    <Image Include="Penguin\Penguin_Attack_BackR.bmp" />
+    <Image Include="Penguin\Penguin_FlyL (1).bmp" />
+    <Image Include="Penguin\Penguin_FlyL (2).bmp" />
+    <Image Include="Penguin\Penguin_FlyL (3).bmp" />
+    <Image Include="Penguin\Penguin_FlyR (1).bmp" />
+    <Image Include="Penguin\Penguin_FlyR (2).bmp" />
+    <Image Include="Penguin\Penguin_FlyR (3).bmp" />
+    <Image Include="Penguin\Penguin_HoldL (1).bmp" />
+    <Image Include="Penguin\Penguin_HoldL (2).bmp" />
+    <Image Include="Penguin\Penguin_HoldL (3).bmp" />
+    <Image Include="Penguin\Penguin_HoldR (1).bmp" />
+    <Image Include="Penguin\Penguin_HoldR (2).bmp" />
+    <Image Include="Penguin\Penguin_HoldR (3).bmp" />
+    <Image Include="Penguin\Penguin_StandL.bmp" />
+    <Image Include="Penguin\Penguin_StandR.bmp" />
+    <Image Include="Penguin\Penguin_WalkL (1).bmp" />
+    <Image Include="Penguin\Penguin_WalkL (2).bmp" />
+    <Image Include="Penguin\Penguin_WalkL (3).bmp" />
+    <Image Include="Penguin\Penguin_WalkL (4).bmp" />
+    <Image Include="Penguin\Penguin_WalkL (5).bmp" />
+    <Image Include="Penguin\Penguin_WalkL (6).bmp" />
+    <Image Include="Penguin\Penguin_WalkR (1).bmp" />
+    <Image Include="Penguin\Penguin_WalkR (2).bmp" />
+    <Image Include="Penguin\Penguin_WalkR (3).bmp" />
+    <Image Include="Penguin\Penguin_WalkR (4).bmp" />
+    <Image Include="Penguin\Penguin_WalkR (5).bmp" />
+    <Image Include="Penguin\Penguin_WalkR (6).bmp" />
+    <Image Include="Small Text\0.bmp" />
+    <Image Include="Small Text\1.bmp" />
+    <Image Include="Small Text\2.bmp" />
+    <Image Include="Small Text\3.bmp" />
+    <Image Include="Small Text\4.bmp" />
+    <Image Include="Small Text\5.bmp" />
+    <Image Include="Small Text\6.bmp" />
+    <Image Include="Small Text\7.bmp" />
+    <Image Include="Small Text\8.bmp" />
+    <Image Include="Small Text\9.bmp" />
+    <Image Include="Small Text\penguin.bmp" />
+    <Image Include="Text\-.bmp" />
+    <Image Include="Text\0.bmp" />
+    <Image Include="Text\1.bmp" />
+    <Image Include="Text\2.bmp" />
+    <Image Include="Text\3.bmp" />
+    <Image Include="Text\4.bmp" />
+    <Image Include="Text\5.bmp" />
+    <Image Include="Text\6.bmp" />
+    <Image Include="Text\7.bmp" />
+    <Image Include="Text\8.bmp" />
+    <Image Include="Text\9.bmp" />
+    <Image Include="Text\Bonus.bmp" />
+    <Image Include="Text\clear.bmp" />
+    <Image Include="Text\GameOver.bmp" />
+    <Image Include="Text\Hits.bmp" />
+    <Image Include="Text\Ready.bmp" />
+    <Image Include="Text\Stage.bmp" />
+    <Image Include="Text\Start.bmp" />
+    <Image Include="Text\TimeOver.bmp" />
+    <Image Include="Text\World.bmp" />
+    <Image Include="Watermelon\Watermelon_Egg.bmp" />
+    <Image Include="Watermelon\Watermelon_Fail (1).bmp" />
+    <Image Include="Watermelon\Watermelon_Fail (2).bmp" />
+    <Image Include="Watermelon\Watermelon_Ice.bmp" />
+    <Image Include="Watermelon\Watermelon_Jump (1).bmp" />
+    <Image Include="Watermelon\Watermelon_Jump (2).bmp" />
+    <Image Include="Watermelon\Watermelon_Jump (3).bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EcocoDeFight\CopyRight.txt" />
+    <Text Include="EcocoDeFight\ToDo.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Source\game.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

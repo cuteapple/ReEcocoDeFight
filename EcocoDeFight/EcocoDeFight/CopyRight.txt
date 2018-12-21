@@ -1,0 +1,14 @@
+﻿Copyright 2015 cuteapple https://github.com/cuteapple
+
+以下內容皆以本資料夾及其子資料夾及其中檔案為影響範圍
+
+這個軟體是為了學習用途開發
+所有圖片及音樂資源屬於 CCLUB別働隊 http://cclub-flying.dsl.gr.jp/
+所有程式碼屬於 cuteapple
+
+
+about all files inside this folder
+
+this a for learning propose, provided as-is, without warranty
+all images and audios belongs to CCLUB別働隊 http://cclub-flying.dsl.gr.jp/
+other things is by cuteapple

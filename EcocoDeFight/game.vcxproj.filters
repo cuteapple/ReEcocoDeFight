@@ -1,0 +1,1422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="EcocoDeFight\Audio\chapter.wma" />
+    <None Include="EcocoDeFight\Audio\title.wma" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\mygame.cpp" />
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="EcocoDeFight\MiddleWare\Bitmap.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Point.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Animation.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Animator.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\GameFlowDriver.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\GameFlow.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Input.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Camera.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Map.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\MovableCharact.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\ControllableCharact.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Map\GameMap.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Map\Maps.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\CommonFunctions.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Caterpillar.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Stages\StageA.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Stages\StageAx.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\Ecoco.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\Penguin.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Attack.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_AttackBack.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Tracing.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\CircleColliderShapeBase.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\ColliderComparior.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\RectangleColliderShapeBase.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Ice.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ColliderContainer.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Watermelon.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageIn.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Enviroment.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Opponents\Mouse.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\ScoreBoard.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StatePlaying.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StateStart.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StateWin.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\StageStates\StateLose.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Background.cpp" />
+    <ClCompile Include="EcocoDeFight\MiddleWare\Sound.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\BGMPlayer.cpp" />
+    <ClCompile Include="EcocoDeFight\Game\Cheat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\mygame.h" />
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="EcocoDeFight\MiddleWare\Bitmap.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Point.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Color.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Animation.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Animator.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\GameFlowDriver.h" />
+    <ClInclude Include="EcocoDeFight\Game\GameFlow.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Input.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Camera.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Map.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\MovableCharact.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\ControllableCharact.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\GameMap.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapItemDefine.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\StageMap.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\Maps.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA1.h" />
+    <ClInclude Include="EcocoDeFight\Game\CommonFunctions.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Caterpillar.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Mob.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\StageXx.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\StageA.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\StageAx.h" />
+    <ClInclude Include="EcocoDeFight\Game\Stages\IStage.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\Ecoco.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\Penguin.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\Penguins.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Attack.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_AttackBack.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Base.h" />
+    <ClInclude Include="EcocoDeFight\Game\Ecoco\PenguinState\PenguinState_Tracing.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA2.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\CircleColliderShapeBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\ColliderComparior.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\ColliderShapeBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ShapeBase\RectangleColliderShapeBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ColliderTemplate.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\InnerCollider\ColliderBase.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Collider\Collider.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Ice.h" />
+    <ClInclude Include="EcocoDeFight\Game\Enumeration.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Watermelon.h" />
+    <ClInclude Include="EcocoDeFight\Game\ScoreBoard.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageIn.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Enviroment.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA3.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA4.h" />
+    <ClInclude Include="EcocoDeFight\Game\Map\MapFiles\MapA5.h" />
+    <ClInclude Include="EcocoDeFight\Game\Opponents\Mouse.h" />
+    <ClInclude Include="EcocoDeFight\Pictures\EcoPicEx.h" />
+    <ClInclude Include="EcocoDeFight\Pictures\EcoPic.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\IStageState.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StatePlaying.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StateLose.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StateWin.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StateStart.h" />
+    <ClInclude Include="EcocoDeFight\Game\StageStates\StageState.h" />
+    <ClInclude Include="EcocoDeFight\Game\BackGround.h" />
+    <ClInclude Include="EcocoDeFight\MiddleWare\Sound.h" />
+    <ClInclude Include="EcocoDeFight\Game\BGMPlayer.h" />
+    <ClInclude Include="EcocoDeFight\Game\Cheat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="EcocoDeFight\Pictures\EcoPic.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear1.png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (1).png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (2).png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (3).png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco_Clear (4).png" />
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_AttackR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Clear (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_fallL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_fallR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_JumpL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_JumpL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_JumpL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_jumpR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_jumpR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_jumpR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_Miss11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveL (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_moveR (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_StandL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Ecoco\Ecoco_StandR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (9).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (10).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (11).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (12).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (13).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (14).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (15).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (16).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (17).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (18).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (19).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (20).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (21).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (22).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (23).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (24).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (25).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (26).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (27).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (28).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (29).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (30).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (31).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Brick (32).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (9).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (10).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (11).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (12).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (13).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (14).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (15).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (16).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (17).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (18).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (19).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (20).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (21).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (22).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (23).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (24).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (25).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (26).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (27).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (28).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (29).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (30).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (31).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Brick (32).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (9).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (10).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (11).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (12).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (13).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (14).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (15).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Lava (16).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (9).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (10).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (11).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (12).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (13).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (14).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (15).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Lava (16).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Icicle (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Icicle (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\Icicle (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Icicle (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Icicle (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\Icicle (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\IceFloor (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\IceFloor (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\IceFloor (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\IceFloor (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\IceFloor (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\IceFloor (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Block\AIR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Block\AIR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\Caterpillar_EggL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\Caterpillar_EggR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_FailL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_FailR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_IceL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_IceR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_MoveL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_MoveL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_MoveL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_MoveR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_MoveR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opponents\CaterPillar_MoveR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\Caterpillar_EggL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\Caterpillar_EggR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_FailL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_FailR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_IceL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_IceR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Opponents\CaterPillar_MoveR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_FlyL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_FlyL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_FlyL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_FlyR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_FlyR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_FlyR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_HoldL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_HoldL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_HoldL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_HoldR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_HoldR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_HoldR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkL (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkL (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkL (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkR (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkR (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_WalkR (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_FlyR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_HoldR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkL (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_WalkR (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackL (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (4).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (5).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (6).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (7).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_IceAttackR (8).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_Attack_BackL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_Attack_BackR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_AttackR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_Attack_BackL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_Attack_BackR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_AttackL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_AttackR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_StandL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Penguin\Penguin_StandR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_StandL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Penguin\Penguin_StandR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Watermelon\Watermelon_Egg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Watermelon\Watermelon_Fail (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Watermelon\Watermelon_Fail (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Watermelon\Watermelon_Ice.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Watermelon\Watermelon_Jump (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Watermelon\Watermelon_Jump (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Watermelon\Watermelon_Jump (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Egg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Fail (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Fail (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Ice.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Jump (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Jump (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Watermelon\Watermelon_Jump (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\-.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\Bonus.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\clear.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\GameOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\Hits.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\Ready.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\Stage.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\Start.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\TimeOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Text\World.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\-.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\Bonus.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\clear.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\GameOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\Hits.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\Ready.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\Stage.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\Start.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\TimeOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Text\World.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_FailL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_FailR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_IceL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_IceR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_JumpL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_JumpR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_MoveL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_MoveL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_MoveL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_StandL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_WalkR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_WalkR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_WalkR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_FailL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_FailR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_IceL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_IceR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_JumpL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_JumpR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_MoveL (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_MoveL (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_MoveL (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_StandL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_WalkR (1).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_WalkR (2).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_WalkR (3).bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mouse\Mouse_StandR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Mouse\Mouse_StandR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Small Text\penguin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\Small Text\penguin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CG\EcocoBegin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CG\EcocoFail.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CG\EcocoWin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\CG\EcocoBegin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\CG\EcocoFail.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\CG\EcocoWin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CG\iceBG.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="EcocoDeFight\Pictures\CG\iceBG.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EcocoDeFight\ToDo.txt" />
+    <Text Include="EcocoDeFight\CopyRight.txt" />
+  </ItemGroup>
+</Project>
