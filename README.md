@@ -6,7 +6,7 @@
 
 ---
 
-my project in 3rd-grade in college, provided as-is, no modification after that
+my project in 3rd-grade in college (2015), provided as-is, no modification after that 
 
 the game_framework part is provided by my professor, some little modification to remove some tooltip and meets some requirement, only use it's window/bitblt/audio functions
 
