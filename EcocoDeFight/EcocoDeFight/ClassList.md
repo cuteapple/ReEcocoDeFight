@@ -57,3 +57,9 @@ Stage Control
  - Stage*
  - State*
  - GameFlow
+
+---
+
+#Basic Game Flow
+
+![ecoflow](ecoflow.png)
